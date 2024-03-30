@@ -10,18 +10,21 @@ class ModelETO():
     def create_matrix_costcase(self):
         pass
     
-    
     def optimize(self):
         pass
     
     def display(self):
         pass
-        
-
+    
 
 def create_model_optimize():
     """
     
     """
     pass
-    
+
+def caclulate():
+    pass
+
+def read_matrix():
+    pass
