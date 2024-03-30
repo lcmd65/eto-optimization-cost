@@ -3,9 +3,10 @@ import numpy as np
 
 
 class ModelETO():
-    def __init__(self, cost_matrix, score_item_matrix):
+    def __init__(self, cost_matrix, score_item_matrix, rank):
         self.cost = cost_matrix
         self.score_item = score_item_matrix
+        self.rank_matrix = rank
         
     def create_matrix_costcase(self):
         pass
